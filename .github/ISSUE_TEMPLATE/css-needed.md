@@ -3,7 +3,7 @@ name: CSS Needed
 about: Issue Template for adding CSS styling to the page
 title: ''
 labels: CSS needed
-assignees: evanykauh
+assignees: evankauh, evanykauh
 
 ---
 
