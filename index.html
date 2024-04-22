@@ -85,13 +85,14 @@
         </ul>
     </section>
     
-    <section>
+    <section class="design-images">
         <h2>Diagrams/Architecture Presented</h2>
-        <p>Note: Images of diagrams and architecture are presented here. Actual images should be inserted using the <code>img</code> tags.</p>
+        <img src="icons/blueprint-1.jpeg" alt="Death Star in construction">
+        <img src="icons/blueprint-2.png" alt="Death Star in construction">
     </section>
 </main>
 
-<section>
+<section class="form-section">
     <form>
         <fieldset>
             <legend>Form</legend>
@@ -102,11 +103,6 @@
             <label for="meeting-date">Meeting Date:</label>
             <input type="date" id="meeting-date" name="meeting-date"><br><br>
             
-            <label>Role:</label>
-            <input type="radio" id="role-leader" name="role" value="leader">
-            <label for="role-leader">Leader</label>
-            <input type="radio" id="role-member" name="role" value="member">
-            <label for="role-member">Member</label><br><br>
             
             <label for="feedback">Feedback:</label>
             <textarea id="feedback" name="feedback"></textarea><br><br>
@@ -130,9 +126,6 @@
                 <option value="deployment">Deployment</option>
             </select><br><br>
             
-            <label>Subscribe to Newsletter:</label>
-            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-            <label for="subscribe">Yes</label><br><br>
             
             <button type="submit">Submit Feedback</button>
         </fieldset>
