@@ -2,13 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
 
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+/* FONT STYLING FOR WHOLE PAGE */
 * {
-    font-family: 'Quicksand', sans-serif, Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif, Arial, sans-serif; /* Fallback to Arial if Quicksand doesn't load properly */ 
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
 }
 
+/* General body and header styling */
+body {
+    padding-top: 4.5rem;
+}
 
 h1 {
     text-align: center;
@@ -19,8 +32,15 @@ h2 {
     margin: auto;
 }
 
+/* NAV CSS */
 nav {
     text-align: center;
+    font-size: 1em;
+}
+
+.nav-text:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+    color: black; /* Changes text color on hover */
 }
 
 .nav-text {
@@ -30,16 +50,13 @@ nav {
     text-decoration: none;
 }
 
-#design-meeting {
-    margin-top: 2.5rem;
-    text-align: center;
-}
+/* Summary Styling */
 
 #sum-drop {
     margin: 20px;
 }
 
-
+/* Container Styling */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -59,6 +76,10 @@ nav {
   .container {
     flex-direction: column;
   }
+}
+
+#container-2 {
+    border-color: blue;
 }
 
 /* DESIGN IMAGES GRID CSS */
@@ -83,6 +104,11 @@ nav {
     font-size: 1.5rem; /* Increases the font size of the heading */
 }
 
+
+#design-meeting {
+    margin-top: 2.5rem;
+    text-align: center;
+}
 
 
 /* FORM CSS BELOW */
@@ -137,4 +163,32 @@ legend {
 /* Adjustments to reduce spacing for better readability */
 br {
     display: none;
+}
+
+
+
+/* FOOTER Styling */
+footer {
+    position: relative;
+    text-align: end;
+}
+
+/* Spinning Image Styling */
+#spinning-img {
+    transition: transform 0.6s ease; 
+    will-change: transform;
+}
+
+#spinning-img:active {
+    animation: spin 0.6s ease;
+}
+
+/* Keyframes for the spin animation */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

@@ -24,7 +24,7 @@
         <h2>Death Star Design Initiation Meeting</h2>
         <h3>Meeting Topic: Design Kick-Off</h3>
         <h3>Date: Galactic Standard Date 4012.04.16</h3>
-        <img src="icons/Lego_death_star_2.png" alt="Death Star in construction">
+        <img src="icons/Lego_death_star_2.png" alt="Death Star in construction" id="spinning-img">
         <details>
             <summary id="sum-drop">Click to reveal more about the Death Star project</summary>
             <p>The Death Star, an armored space station with enough power to destroy an entire planet, is the Galactic Empire's ultimate weapon. Its construction is overseen by the Empire's elite engineers and scientists.</p>
@@ -33,7 +33,7 @@
         
     </section>
 
-    <div class="container">
+    <div class="container" id="container-1">
         <section id="attendance">
             <h2>Attendance</h2>
             <ul>
@@ -59,7 +59,7 @@
         </section>
     </div>
     
-    <div class="container">
+    <div class="container" id="container-2">
         <section>
             <h2><b>Unfinished Business</b> from Last Meeting</h2>
             <p> <b>None</b> - This is the first official design meeting for the project.</p>
@@ -76,26 +76,29 @@
         </section>
     </div>
 
-    <div id="video-audio">
-        <h2>Meet the Team of the Week</h2>
-        <video controls width ="180">
-            <source src="video/team-intro_compressed.mov" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <audio controls>
-            <source src="audio/team-intro_compressed.MP3" type="audio/mp3">
-            Your browser does not support the audio element.
-        </audio>
+    <div class="container" id="container-3">
+        <section id="video-audio">
+            <h2>Meet the Team of the Week</h2>
+            <video controls width ="180">
+                <source src="video/team-intro_compressed.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <audio controls>
+                <source src="audio/team-intro_compressed.MP3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        
+        <section id="misc">
+            <h2>Miscellaneous Comments/Questions/Concerns</h2>
+            <ul>
+                <li>HK-47 raised concerns about the reliability of the thermal exhaust ports and suggested additional shielding.</li>
+                <li>R2-Q5 proposed a dual-layered firewall for the mainframe to prevent potential rebel hacking attempts.</li>
+                <li>Lead Architect D-3R requested a larger budget for the development of the superlaser.</li>
+            </ul>
+        </section>
     </div>
     
-    <section id="misc">
-        <h2>Miscellaneous Comments/Questions/Concerns</h2>
-        <ul>
-            <li>HK-47 raised concerns about the reliability of the thermal exhaust ports and suggested additional shielding.</li>
-            <li>R2-Q5 proposed a dual-layered firewall for the mainframe to prevent potential rebel hacking attempts.</li>
-            <li>Lead Architect D-3R requested a larger budget for the development of the superlaser.</li>
-        </ul>
-    </section>
     
     <section class="design-images">
         <h2>Diagrams/Architecture Presented</h2>
