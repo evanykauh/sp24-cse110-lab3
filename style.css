@@ -1,7 +1,22 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
 
 h1 {
     text-align: center;
     color: dimgrey;
+}
+
+h2 {
+    margin: auto;
 }
 
 nav {
@@ -13,6 +28,15 @@ nav {
     padding-left: 1in;
     padding-right: 1in;
     text-decoration: none;
+}
+
+#design-meeting {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+#sum-drop {
+    margin: 20px;
 }
 
 /* DESIGN IMAGES GRID CSS */
