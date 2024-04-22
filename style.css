@@ -1,3 +1,19 @@
 form {
     background-color: antiquewhite;
 }
+
+h1 {
+    text-align: center;
+    color: dimgrey;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav-text {
+    color: dimgray;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-decoration: none;
+}
