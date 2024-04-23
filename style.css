@@ -20,7 +20,7 @@ header {
 
 /* General body and header styling */
 body {
-    padding-top: 4.5rem;
+    padding-top: 100px;
 }
 
 h1 {
@@ -78,8 +78,12 @@ nav {
   }
 }
 
-#container-2 {
-    border-color: blue;
+#container-2 > section {
+    border-color: lightpink;
+}
+
+#container-3 > section {
+    border-style: dashed;
 }
 
 /* DESIGN IMAGES GRID CSS */
@@ -118,6 +122,8 @@ nav {
     align-items: center;
     background-color: white;
     padding: 20px;
+    max-width: 95%;
+    min-width: 10%;
 }
 
 form {
@@ -191,4 +197,13 @@ footer {
     to {
         transform: rotate(360deg);
     }
+}
+
+
+/* Audio and Video CSS */
+video {
+    padding: 30px;
+}
+audio {
+    padding: 30px;
 }
