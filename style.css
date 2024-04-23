@@ -32,6 +32,12 @@ h2 {
     margin: auto;
 }
 
+h3[id="meeting-date"] {
+    font-family: 'Quicksand', sans-serif; 
+    font-style: italic ;
+    font-size: 15px;
+}
+
 /* NAV CSS */
 nav {
     text-align: center;
@@ -78,12 +84,31 @@ nav {
   }
 }
 
+#agenda h2 + p {
+    padding: none;
+    margin: none;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
 #container-2 > section {
     border-color: lightpink;
 }
 
 #container-3 > section {
     border-style: dashed;
+}
+
+#container-2 #new-business ol {
+    border-left: 2px solid #333; /* Dark grey border on the left. */
+    padding-left: 20px;
+}
+
+.container section:has(ol li) > h2 {
+    text-decoration: underline;
+}
+
+#container-3 #misc ul li ~ li {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* DESIGN IMAGES GRID CSS */
